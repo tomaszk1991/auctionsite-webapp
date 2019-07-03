@@ -5,8 +5,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Category {
-    private String categoryName;
-    private String descriptiveName;
+public class Bidding {
 
+    private Auction auction;
+    private User user;
+    private Double amount;
 }
